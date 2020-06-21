@@ -11,7 +11,7 @@ class StudentsController < ApplicationController
   def new
   end
 
-  def create
+  def create #creates a new student
    @post = Post.new
     @post.title = params[:title]
     @post.description = params[:description]
