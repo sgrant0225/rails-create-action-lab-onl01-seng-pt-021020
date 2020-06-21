@@ -12,6 +12,7 @@ class StudentsController < ApplicationController
   end
 
   def create
+    Student.create()
   end
 
 end
