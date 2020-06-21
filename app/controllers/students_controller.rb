@@ -16,7 +16,7 @@ class StudentsController < ApplicationController
     @post.title = params[:title]
     @post.description = params[:description]
     @post.save
-    redirect_to post_path(@post) #redirects to the new student
+    redirect_to post_path(@post) #redirects to the new student 
   end
 
 end
